@@ -1,0 +1,7 @@
+* * * * * echo "Another minute Date is: Date is $(date)" >> ~/Desktop/shellscripts/time.log 2>&1
+20 * * * * echo "it is 20 minutes past the hour!" >> ~/Desktop/shellscripts/time.log
+45-50 * * * * echo "45-50 date is $(date)" >> ~/Desktop/shellscripts/time.log
+*/2 * * * * echo "I print 2 minutes ! $(date)" >> ~/Desktop/shellscripts/time.log
+* * * * * $HOME/Desktop/shellscripts/backup.sh
+
+* * * * * bash minecraft_backup.sh
